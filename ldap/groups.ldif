@@ -1,0 +1,54 @@
+dn: ou=groups,dc=beast,dc=local
+objectClass: organizationalUnit
+ou: groups
+
+dn: cn=developers,ou=groups,dc=beast,dc=local
+objectClass: groupOfNames
+cn: developers
+description: Developer Group for App Access
+member: uid=alex.johnson,ou=users,dc=beast,dc=local
+member: uid=emma.brown,ou=users,dc=beast,dc=local
+member: uid=michael.smith,ou=users,dc=beast,dc=local
+member: uid=liam.thomas,ou=users,dc=beast,dc=local
+member: uid=noah.wilson,ou=users,dc=beast,dc=local
+
+dn: cn=qa,ou=groups,dc=beast,dc=local
+objectClass: groupOfNames
+cn: qa
+description: QA and Testing Team
+member: uid=sophia.davis,ou=users,dc=beast,dc=local
+member: uid=olivia.clark,ou=users,dc=beast,dc=local
+member: uid=ava.harris,ou=users,dc=beast,dc=local
+member: uid=isabella.moore,ou=users,dc=beast,dc=local
+member: uid=ella.hall,ou=users,dc=beast,dc=local
+
+dn: cn=admins,ou=groups,dc=beast,dc=local
+objectClass: groupOfNames
+cn: admins
+description: Admin and Privileged Users
+member: uid=daniel.martin,ou=users,dc=beast,dc=local
+member: uid=jackson.miller,ou=users,dc=beast,dc=local
+member: uid=sebastian.allen,ou=users,dc=beast,dc=local
+member: uid=leo.campbell,ou=users,dc=beast,dc=local
+member: uid=henry.ward,ou=users,dc=beast,dc=local
+
+dn: cn=analysts,ou=groups,dc=beast,dc=local
+objectClass: groupOfNames
+cn: analysts
+description: Data Analysts
+member: uid=charlotte.king,ou=users,dc=beast,dc=local
+member: uid=mia.green,ou=users,dc=beast,dc=local
+member: uid=grayson.adams,ou=users,dc=beast,dc=local
+member: uid=zoe.morgan,ou=users,dc=beast,dc=local
+member: uid=aria.walker,ou=users,dc=beast,dc=local
+
+dn: cn=interns,ou=groups,dc=beast,dc=local
+objectClass: groupOfNames
+cn: interns
+description: Intern Group for Limited Access
+member: uid=logan.scott,ou=users,dc=beast,dc=local
+member: uid=ethan.jackson,ou=users,dc=beast,dc=local
+member: uid=grace.cooper,ou=users,dc=beast,dc=local
+member: uid=levi.richards,ou=users,dc=beast,dc=local
+member: uid=scarlett.baker,ou=users,dc=beast,dc=local
+

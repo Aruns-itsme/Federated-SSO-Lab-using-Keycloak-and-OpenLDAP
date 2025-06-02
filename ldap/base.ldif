@@ -1,0 +1,7 @@
+dn: ou=users,dc=beast,dc=local
+objectClass: organizationalUnit
+ou: users
+
+dn: ou=groups,dc=beast,dc=local
+objectClass: organizationalUnit
+ou: groups
