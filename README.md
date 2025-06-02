@@ -29,7 +29,7 @@ federated-sso-lab/
 │ ├── users.ldif
 │ ├── groups.ldif
 │ └── ldap-setup.md
-├── beast-app-app/
+├── beast-app/
 │ ├── app.js
 │ ├── package.json
 │ ├── .env
@@ -148,7 +148,7 @@ http://0.0.0.0:8080
 ### a) Install dependencies
 
 ```bash
-cd beast-app-app
+cd beast-app
 npm install
 ```
 
