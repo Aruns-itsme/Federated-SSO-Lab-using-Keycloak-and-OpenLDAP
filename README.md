@@ -49,7 +49,7 @@ federated-sso-lab/
 
 ## Lab Architecture
 
-![Network Topology](architecture_diagram.png)
+![Network Topology](architecture-diagram.png)
 
 ## 🏗️ Step-by-Step Setup Guide
 
