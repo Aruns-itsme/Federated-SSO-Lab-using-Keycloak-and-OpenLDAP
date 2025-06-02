@@ -45,8 +45,11 @@ federated-sso-lab/
 ├── app-login.png
 └── app-profile.png
 ```
-
 ---
+
+## Lab Architecture
+
+![Network Topology](architecture_diagram.png)
 
 ## 🏗️ Step-by-Step Setup Guide
 
